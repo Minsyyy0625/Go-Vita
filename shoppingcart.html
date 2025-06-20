@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Go Vita Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <header>
+        <nav class="navbar section-content">
+            <a href="#"><img src="logo.png" class="nav-logo" alt=""></a>
+            <ul class="nav-menu">
+              <button id="menu-close-button" class="fas fa-times"></button>
+              <li class="nav-item">
+                <a href="product.html" class="nav-link">SHOP ALL</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">ADVICE</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">BRANDS</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">STORES</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">SPECIALS</a>
+              </li>
+              <div class="header-icon">
+                <i class="bx fa-solid fa-cart-shopping"></i>
+                <i class="bx fa-solid fa-magnifying-glass" id="search-icon"></i>
+              </div>
+              <li class="nav-item">
+                <i class="fas fa-bars"></i>
+              </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+
+        <div class="search-box">
+          <input type="search" id="" placeholder="search here">
+          <label for="search-box" class="fas fa-search"></label>
+        </div>
+    </header>
+
+    <main>
+        <section id="page-header">
+            <h2 class="title">Shopping Cart</h2>
+        </section>
+
+        <section id="cart" class="section-p1">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Remove</td>
+                        <td>Image</td>
+                        <td>Product</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Subtotal</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><i class="far fa-times-circle"></i><a href="#"></a></td>
+                        <td><img src="cartpro1.png" alt=""></td>
+                        <td>NutriVital Premium Gut Support Complex Powder 150g</td>
+                        <td>$52.95</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$52.95</td>
+                    </tr>
+                    <tr>
+                        <td><i class="far fa-times-circle"></i><a href="#"></a></td>
+                        <td><img src="cartpro2.png" alt=""></td>
+                        <td>NutriVital Ashwagandha One-A-Day Capsules</td>
+                        <td>$38.95</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$38.95</td>
+                    </tr>
+                    <tr>
+                        <td><i class="far fa-times-circle"></i><a href="#"></a></td>
+                        <td><img src="cartpro3.png" alt=""></td>
+                        <td>Nutra Organics Collagen Beauty</td>
+                        <td>$43.95</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$43.95</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+
+        <section id="cart-add" class="section-p1">
+            <div id="coupon">
+                <h3>Apply Coupon</h3>
+                <div>
+                    <input type="text" placeholder="Enter your Coupon">
+                    <button class="normal">Apply</button>
+                </div>
+            </div>
+
+            <div id="subtotal">
+                <h3>Cart Totals</h3>
+                <table>
+                    <tr>
+                        <td>Cart Subtotal</td>
+                        <td>AUD $135.85</td>
+                    </tr>
+                    <tr>
+                        <td>Total Savings</td>
+                        <td>AUD $0.00</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>confirmed at checkout</td>
+                    </tr>
+                </table>
+                <button class="normal">Proceed to checkout</button>
+            </div>
+
+        </section>
+
+        <section id="signup" class="section-p1">
+          <div class="ordertext">
+            <h2>GET 10% OFF YOUR FIRST ORDER</h2>
+            <p>Get expert advice, explore top-quality brands, and access our library of nutritious articles & healthy recipes.</p>
+          </div>
+          <div class="form">
+            <input type="text" placeholder="Enter your email address">
+            <button class="normal">Sign Up</button>
+          </div>
+        </section>
+
+        <footer class="section-p1">
+          <div class="col">
+            <img class="logo" src="logo.png" alt="">
+          </div>
+          <div class="follow">
+            <h4>Follow us</h4>
+          <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+          </div>
+          <div class="col">
+            <h4>Go Vita Wellness Hub</h4>
+            <a href="#">Recipes</a>
+            <a href="#">Blog</a>
+            <a href="#">Podcasts</a>
+            <a href="#">Go Magazine</a>
+          </div>
+
+          <div class="col">
+            <h4>About us</h4>
+            <a href="#">Our story</a>
+            <a href="#">Store locator</a>
+            <a href="#">Join our store network</a>
+          </div>
+
+          <div class="col">
+            <h4>Customer Service</h4>
+            <a href="#">Contact us</a>
+            <a href="#">Frequently asked questions</a>
+            <a href="#">Wholesales & B2B customers</a>
+            <a href="#">Shipping & returns</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms & conditions</a>
+          </div>
+
+          <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+              <img src="appstore.png" alt="">
+              <img src="googlepay.png" alt="">
+            </div>
+            <p>Secured Pay Getways</p>
+            <img src="pay.png" alt="">
+          </div>
+
+          <div class="copyright">
+            <p>© 2025 Go Vita. All Rights Reserved.</p>
+          </div>
+
+        </footer>
+ 
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
